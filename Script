@@ -39,7 +39,7 @@ for line in valid_lines:
             expiry_datetime = datetime.strptime(date_time_str, "%Y-%m-%d : %H:%M")
             current_datetime = datetime.now()
 
-            if current_datetime <= expiry_datetime:
+            if current_datetime <= expiry_datetime: 2085-08-11 : 22:22
                 print(f"{Fore.GREEN}✅ Access Granted! Welcome Premium User ✨")
                 access_granted = True
             else:
