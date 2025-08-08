@@ -15,16 +15,16 @@ def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 clear()
-print(f"{Fore.CYAN}{Style.BRIGHT}🪐 M0BSY PAID ACCESS SYSTEM\n")
+print(f"{Fore.CYAN}{Style.BRIGHT}🪐 𝐌𝟎𝐁𝐒𝐘 𝐏𝐀𝐈𝐃 𝐀𝐂𝐂𝐄𝐒𝐒 𝐒𝐘𝐒𝐓𝐄𝐌          \n")
 
-ID = input(f"{Fore.YELLOW}Enter your Telegram User ID: {Fore.RESET}").strip()
+ID = input(f"{Fore.YELLOW}𝐄𝐍𝐓𝐄𝐑 𝐘𝐎𝐔𝐑 𝐀𝐂𝐂𝐄𝐒𝐒 𝐈𝐃:  {Fore.RESET}").strip()
 
 try:
-    response = requests.get("https://raw.githubusercontent.com/M0bsyy/Paid.user/main/Script")
+    response = requests.get("https://raw.githubusercontent.com/M0bsyy/Paid.user/main/M0bsy%20Paid%20Users")
     response.raise_for_status()
     valid_lines = response.text.splitlines()
 except requests.RequestException:
-    print(f"{Fore.RED}⚠️ Failed to check access. Check your internet connection.")
+    print(f"{Fore.RED}⚠️ 𝐅𝐀𝐈𝐋𝐃 𝐓𝐎 𝐂𝐇𝐄𝐂𝐊 𝐀𝐂𝐂𝐄𝐒𝐒. 𝐂𝐇𝐄𝐂𝐊 𝐘𝐎𝐔𝐑 𝐈𝐍𝐓𝐄𝐑𝐍𝐄𝐓 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐈𝐎𝐍.          ")
     os._exit(1)
 
 access_granted = False
@@ -39,8 +39,8 @@ for line in valid_lines:
             expiry_datetime = datetime.strptime(date_time_str, "%Y-%m-%d : %H:%M")
             current_datetime = datetime.now()
 
-            if current_datetime <= expiry_datetime: 2085-08-11 : 22:22
-                print(f"{Fore.GREEN}✅ Access Granted! Welcome Premium User ✨")
+            if current_datetime <= expiry_datetime:
+                print(f"{Fore.GREEN}✅ 𝐀𝐂𝐂𝐄𝐒𝐒 𝐆𝐑𝐀𝐍𝐓𝐄𝐃! 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 @M0bsy_olds 𝐅𝐈𝐋𝐄 𝐏𝐑𝐄𝐌𝐈𝐔𝐌            𝐔𝐒𝐄𝐑. ✨                           ")
                 access_granted = True
             else:
                 print(f"{Fore.RED}❌ Your subscription expired on {expiry_datetime.strftime('%Y-%m-%d %H:%M')}.")
@@ -49,19 +49,19 @@ for line in valid_lines:
         pass  # silently skip any error
 
 if not access_granted:
-    print(f"{Fore.RED}❌ Access Denied. Contact @M0bsy_olds for paid access.")
+    print(f"{Fore.RED}❌ 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 @M0bsy_olds 𝐅𝐎𝐑 𝐏𝐀𝐈𝐃 𝐀𝐂𝐂𝐄𝐒𝐒.    ")
     sleep(2)
     os._exit(0)
 
-print(f"{Fore.CYAN}\n🚀 Loading your premium tool... Please wait.\n")
+print(f"{Fore.CYAN}\n🚀 𝐋𝐎𝐀𝐃𝐈𝐍𝐆 @M0bsy_olds 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 𝐓𝐎𝐎𝐋...!𝐏𝐋𝐄𝐀𝐒𝐄 𝐖𝐀𝐈𝐓.                   \n")
 sleep(1)
 
 # ========================
 # YOUR PAID TOOL BELOW
 # ========================
-print(f"{Fore.GREEN}✨ Paid tool is 
-now running. Enjoy!")
 
+import webbrowser
+webbrowser.open("https://t.me/about_m0bsy")
 import os
 try:import cfonts;from cfonts import render
 except:os.system("pip install python-cfonts")
@@ -105,8 +105,8 @@ bademail = 0
 goodig = 0
 b = random.randint(5,208)
 bo = f'\x1b[38;5;{b}m'
-TOKEN =input("Token: ")
-ID =input('ID: ')    
+Token=input("Token: ")
+ID=input('ID: ')    
 
 def pppp():
     global badinsta, hits, bademail, goodig
@@ -122,12 +122,12 @@ def pppp():
 
     output = f"""
 {dots*2}
-=====  𝐒𝐂𝐀𝐍𝐍𝐈𝐍𝐆 𝐀𝐂𝐂𝐎𝐔𝐍𝐓𝐒.....  =====
-𝐇ɪᴛs            --> {hits}
-𝐁ᴀᴅ 𝐈ɴsᴛᴀ    --> {badinsta}
+======== 𝐒𝐂𝐀𝐍𝐍𝐈𝐍𝐆 𝐀𝐂𝐂𝐎𝐔𝐍𝐓𝐒..... ========
+𝐇ɪᴛs         --> {hits}
+𝐁ᴀᴅ 𝐈ɴsᴛᴀ   --> {badinsta}
 𝐁ᴀᴅ 𝐌ᴀɪʟ    --> {bademail}
-𝐆ᴏᴏᴅ 𝐈𝐆      --> {goodig}
-=========================
+𝐆ᴏᴏᴅ 𝐈𝐠    --> {goodig}
+============================
 𝐁𝐘 𝐌𝟎𝐁𝐒𝐘 [ @M0bsy_olds ]
 {dots*2}
 """
@@ -273,20 +273,23 @@ def InfoAcc(username, gg):
 
     total += 1
     ss = f'''
-╔═════════ 𝐌𝟎𝐁𝐒𝐘 𝐒𝐄𝐍𝐓 𝐀 𝟐𝐤𝟏𝟑 𝐇𝐈𝐓 ═════════╗
-║ 𝐍ᴀᴍᴇ        : {full_name}
-║ 𝐔sᴇʀɴᴀᴍᴇ : @{username}
-║ 𝐄ᴍᴀɪʟ       : {username}@gmail.com
-║ 𝐑ᴇsᴇᴛ       : {rest(username)}
-║ 𝐅ᴏʟʟᴏᴡᴇʀs: {fows}
-║ 𝐅ᴏʟʟᴏᴡɪɴɢ: {fowg}
-║ 𝐏ᴏsᴛ         : {pp}
-║ 𝐘ᴇᴀʀ         : {date(Id)}
-║ 𝐌ᴇᴛᴀ        : {meta}
-║ 𝐋ɪɴᴋ         : instagram.com/{username}
-╚═════════════════════════════╝
-𝐁𝐘 👾 @M0bsy_olds | 𝐂𝐇 📡 @Fallen_Gods
-'''
++----------------------------------+
+|        𝐌𝟎𝐁𝐒𝐘 𝐒𝐄𝐍𝐃 𝐀 𝐇𝐈𝐓           |
++----------------------------------+
+| 𝐍ᴀᴍᴇ     : {full_name}
+| 𝐔sᴇʀɴᴀᴍᴇ : @{username}
+| 𝐄ᴍᴀɪʟ    : {username}@gmail.com
+| 𝐑ᴇsᴇᴛ    : {rest(username)}
+| 𝐅ᴏʟʟᴏᴡᴇʀs: {fows}
+| 𝐅ᴏʟʟᴏᴡɪɴɢ: {fowg}
+| 𝐏ᴏsᴛ    : {pp}
+| 𝐘ᴇᴀʀ     : {date(Id)}
+| 𝐌ᴇᴛᴀ     : {meta}
+| 𝐋ɪɴᴋ     : instagram.com/{username}
++-------------------------------------+
+| 𝐁𝐘: @M0bsy_olds | 𝐂𝐇: @about_m0bsy |
++-------------------------------------+
+''' 
     with open("100-500 Followers.txt" if 100 <= fows < 500 else "500+ Followers.txt" if fows >= 500 else "0-100 Followers.txt", "a", encoding='utf-8') as file:
         file.write(ss+"\n")
     try:
